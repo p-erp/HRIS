@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_employees"
+            android:icon="@drawable/ic_employees_black_24dp"
+            android:title="Employees" />
+        <item
+            android:id="@+id/nav_cutoff"
+            android:icon="@drawable/ic_date_range_black_24dp"
+            android:title="Cut Off" />
+        <item
+            android:id="@+id/nav_workday"
+            android:icon="@drawable/ic_card_travel_black_24dp"
+            android:title="WorkDay" />
+        <item
+            android:id="@+id/nav_overtime"
+            android:icon="@drawable/ic_overtime_black_24dp"
+            android:title="Overtime" />
+        <item
+            android:id="@+id/nav_offset"
+            android:icon="@drawable/ic_offset_black_24dp"
+            android:title="Offset" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_power_settings_new_black_24dp"
+            android:title="Log Out" />
+
+    </group>
+
+
+</menu>

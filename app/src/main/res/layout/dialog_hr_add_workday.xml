@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:focusableInTouchMode="true"
+    android:background="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <LinearLayout
+        android:layout_below="@id/appbarLayout"
+        android:layout_margin="@dimen/material_margin"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputLayout
+            android:focusable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:focusable="false"
+                android:id="@+id/tf_hr_day"
+                android:hint="@string/hr_add_work_day"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:focusable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:focusable="false"
+                android:id="@+id/tf_hr_start"
+                android:hint="@string/hr_add_work_start"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:focusable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:focusable="false"
+                android:id="@+id/tf_hr_end"
+                android:hint="@string/hr_add_work_end"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:focusable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:focusable="false"
+                android:id="@+id/tf_hr_year"
+                android:hint="@string/hr_add_work_year"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <Button
+            android:id="@+id/add_workday"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:text="@string/admin_add_btn_name"
+            android:background="@drawable/btn_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</RelativeLayout>
