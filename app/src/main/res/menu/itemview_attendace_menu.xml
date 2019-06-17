@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+>
+
+        <item
+            android:id="@+id/pop_timeinmap"
+            android:icon="@drawable/ic_place_black_24dp"
+            android:title="Time In Map" />
+        <item
+            android:id="@+id/pop_timeoutmap"
+            android:icon="@drawable/ic_place_black_24dp"
+            android:title="Time Out Map" />
+
+
+
+
+</menu>

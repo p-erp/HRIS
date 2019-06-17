@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">HR_Payroll</string>
+
+
+    <string name="termsandagreement">By signing up, you automatically agree with</string>
+    <string name="agreemnent">hr terms and conditions.</string>
+    <string name="setup1">User must setup their account to make transactions</string>
+    <string name="setup2"></string>
+
+
+    <string name="toolbar_title_signin">User Sign In</string>
+    <string name="donthaveaccount">Dont have account ?</string>
+    <string name="signup"> Sign up here.</string>
+    <string name="needtosetup">You seems like you dont set up your account yet.</string>
+    <string name="forgot">Forgot your password?</string>
+    <string name="clickhere">Click here.</string>
+    <string name="fb_btn">Sign in with facebook</string>
+    <string name="gmail_btn">Sign in with g-mail</string>
+    <string name="haveaccount_btn">Already have account</string>
+    <string name="title_activity_main_navigation">MainNavigation</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_sync">Sync</string>
+
+
+    <string name="title_activity_attendance_map_view">Map</string>
+
+
+    <string name="location_settings_inadequate_warning">The location settings on the device are not
+        adequate to run this sample. Fix in Settings.</string>
+
+    <string name="permission_rationale">Location permission is needed for core functionality</string>
+    <string name="permission_denied_explanation">Permission was denied, but is needed for core
+        functionality.</string>
+    <string name="settings">Settings</string>
+    <string name="title_activity_implemented_search">implemented_search</string>
+    <string name="title_activity_user__map">Map</string>
+    <string name="title_activity_admin_main">AdminMainActivity</string>
+    <string name="title_activity_hrmain">HRMainActivity</string>
+    <string name="title_activity_company_main">CompanyMainActivity</string>
+
+
+
+    <string name="admin_add_company_name">Name</string>
+    <string name="admin_add_company_address">Address</string>
+    <string name="admin_add_company_email">Email</string>
+    <string name="admin_add_company_mobile">Mobile</string>
+    <string name="admin_add_company_landline">Landline</string>
+    <string name="admin_add_company_password">Password</string>
+    <string name="admin_add_company_re_password">Re-Password</string>
+
+
+    <string name="admin_add_hint_date">Holiday Date</string>
+    <string name="admin_add_hint_name">Holiday name</string>
+    <string name="admin_add_btn_name">Save </string>
+
+
+    <string name="hr_add_work_day">Day</string>
+    <string name="hr_add_work_start">Start Time</string>
+    <string name="hr_add_work_end">End Time</string>
+    <string name="hr_add_work_year">Year</string>
+
+    <string name="main_add_resignation_start">Start Date</string>
+    <string name="main_add_resignation_reason">Reason</string>
+
+
+    <string name="main_add_overtime_start">Start Date</string>
+    <string name="main_add_overtime_starttime">Start Time</string>
+
+
+    <string name="main_add_overtime_endtime">End Time</string>
+    <string name="main_add_overtime_end">End Date</string>
+    <string name="main_add_overtime_reason">Reason</string>
+
+
+    <string name="main_add_offset_start">OffSet Start Date</string>
+    <string name="main_add_offset_exchange">OffSet Change Date</string>
+</resources>

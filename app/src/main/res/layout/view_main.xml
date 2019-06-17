@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/material_margin"
+    android:layout_height="match_parent"
+    tools:context=".main.MainActivityView">
+
+    <ImageView
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:layout_width="@dimen/main_icon_width"
+        android:layout_height="@dimen/main_icon_height"
+        />
+    <!--
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_marginTop="?attr/actionBarSize"
+        android:textAllCaps="false"
+        android:id="@+id/facebook"
+        android:textColor="@color/white"
+        android:layout_marginLeft="@dimen/material_margin"
+        android:layout_marginRight="@dimen/material_margin"
+        android:layout_marginBottom="@dimen/material_margin"
+        android:background="@drawable/btn_bg"
+        android:text="@string/fb_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/gmail"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:text="@string/gmail_btn"
+        android:layout_marginLeft="@dimen/material_margin"
+        android:layout_marginRight="@dimen/material_margin"
+        android:layout_marginBottom="@dimen/material_margin"
+        android:background="@drawable/btn_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    -->
+    <TextView
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:text="Human Resource Application"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_marginTop="20dp"
+        android:id="@+id/have_account"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:text="@string/haveaccount_btn"
+        android:layout_marginLeft="@dimen/material_margin"
+        android:layout_marginRight="@dimen/material_margin"
+        android:layout_marginBottom="@dimen/material_margin"
+        android:background="@drawable/btn_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="@string/donthaveaccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/signup"
+            android:layout_marginLeft="2dp"
+            android:text="@string/signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

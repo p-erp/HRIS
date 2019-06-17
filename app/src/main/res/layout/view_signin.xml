@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:focusableInTouchMode="true"
+    android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/navigationToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_weight=".8"
+                    android:orientation="horizontal"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/back"
+                        android:layout_margin="15dp"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/ic_arrow_back_white_24dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:textSize="17sp"
+                        android:text="@string/toolbar_title_signin"
+                        android:layout_width="wrap_content"
+                        android:textColor="@color/white"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <ScrollView
+        android:layout_marginTop="@dimen/margin_top_btns"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:paddingBottom="16dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="16dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/icon"
+                android:layout_gravity="center"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:src="@mipmap/ic_launcher"/>
+            <LinearLayout
+                android:layout_marginTop="@dimen/margin_top_btns"
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="bottom"
+                android:orientation="horizontal">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/email_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="bottom">
+
+                    <EditText
+                        android:id="@+id/email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#00000000"
+                        android:hint=" Email"
+                        android:inputType="textEmailAddress"
+                        android:singleLine="true"
+                        android:textSize="18sp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="5dp">
+
+                <View
+                    android:id="@+id/view_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:background="@drawable/dropshadow" />
+
+                <View
+                    android:id="@+id/second_view_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#2c3e50"
+                    android:visibility="invisible" />
+
+
+
+            </FrameLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="bottom"
+                android:orientation="horizontal">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/password_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="bottom">
+
+                    <com.scottyab.showhidepasswordedittext.ShowHidePasswordEditText
+                        android:id="@+id/password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#00000000"
+                        android:hint=" Password"
+                        android:inputType="textEmailAddress"
+                        android:singleLine="true"
+                        android:textSize="18sp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="5dp">
+                <View
+                    android:id="@+id/view_password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:background="@drawable/dropshadow" />
+                <View
+                    android:id="@+id/second_view_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#2c3e50"
+                    android:visibility="invisible" />
+
+            </FrameLayout>
+            <Button
+                android:id="@+id/signIn"
+                android:layout_marginBottom="@dimen/material_margin"
+                android:layout_marginTop="@dimen/btn_topmargin"
+                android:textColor="@color/white"
+                android:text="Sign In"
+                android:background="@drawable/btn_bg"
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/btn_height" />
+            <LinearLayout
+                android:layout_marginTop="@dimen/material_margin"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="@string/forgot"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:text="@string/clickhere"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<androidx.cardview.widget.CardView
+    android:layout_margin="@dimen/material_margin"
+    android:layout_width="match_parent"
+    android:layout_height="105dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/menu"
+            android:layout_marginRight="3dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_more_horiz_black_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+ <LinearLayout
+     android:layout_margin="@dimen/material_margin"
+     android:orientation="vertical"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content">
+     <TextView
+         android:text="Time in Detail :"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" />
+     <LinearLayout
+         android:layout_margin="3dp"
+         android:orientation="horizontal"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent">
+         <TextView
+             android:layout_weight=".4"
+             android:id="@+id/time_in_date"
+             android:layout_width="1dp"
+             android:layout_height="wrap_content" />
+         <TextView
+             android:layout_weight=".2"
+             android:layout_width="1dp"
+             android:layout_height="wrap_content" />
+         <TextView
+             android:layout_weight=".4"
+             android:id="@+id/time_in"
+             android:layout_width="1dp"
+             android:layout_height="wrap_content" />
+     </LinearLayout>
+     <TextView
+         android:text="Time out Detail :"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" />
+     <LinearLayout
+         android:layout_margin="3dp"
+         android:orientation="horizontal"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent">
+         <TextView
+             android:layout_weight=".4"
+             android:id="@+id/time_out_date"
+             android:layout_width="1dp"
+             android:layout_height="wrap_content" />
+         <TextView
+             android:layout_weight=".2"
+             android:layout_width="1dp"
+             android:layout_height="wrap_content" />
+         <TextView
+             android:layout_weight=".4"
+             android:id="@+id/time_out"
+             android:layout_width="1dp"
+             android:layout_height="wrap_content" />
+     </LinearLayout>
+ </LinearLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+</RelativeLayout>

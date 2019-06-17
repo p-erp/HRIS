@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Search Company">
+        <menu>
+            <item
+                android:id="@+id/nav_search"
+                android:icon="@drawable/ic_search_black_24dp"
+                android:title="Search" />
+
+
+
+
+        </menu>
+    </item>
+    <item android:title="Main Navigation">
+        <menu>
+            <item
+                android:id="@+id/nav_home"
+                android:icon="@drawable/ic_home_black_24dp"
+                android:title="Home" />
+            <item
+                android:id="@+id/nav_account"
+                android:icon="@drawable/ic_account_circle_black_24dp"
+                android:title="Account" />
+            <item
+                android:id="@+id/nav_attendance"
+                android:icon="@drawable/ic_event_black_24dp"
+                android:title="My Attendance" />
+
+
+
+        </menu>
+    </item>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_holiday"
+                android:icon="@drawable/ic_event_busy_black_24dp"
+                android:title="Holiday Attendance" />
+            <item
+                android:id="@+id/nav_offset"
+                android:icon="@drawable/ic_offset_black_24dp"
+                android:title="Offset Attendance" />
+
+            <item
+                android:id="@+id/nav_overtime"
+                android:icon="@drawable/ic_overtime_black_24dp"
+                android:title="Overtime" />
+            <item
+                android:id="@+id/nav_expense"
+                android:icon="@drawable/ic_expense_black_24dp"
+                android:title="Expense" />
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_power_settings_new_black_24dp"
+                android:title="Log Out" />
+
+
+        </menu>
+    </item>
+
+
+
+</menu>

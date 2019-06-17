@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/recycleview"
+        app:cardUseCompatPadding="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+       <TextView
+           android:layout_margin="@dimen/material_margin"
+           android:id="@+id/day"
+           android:layout_width="match_parent"
+           android:layout_height="20dp" />
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
